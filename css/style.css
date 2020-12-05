@@ -836,3 +836,27 @@ body {
 .about-link:hover {
 	color: #f04037;
 }
+
+@media(max-width: 992px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media(max-width: 768px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media(max-width: 576px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media(max-width: 540px) {
+	.container {
+		width: auto;
+	}
+}
