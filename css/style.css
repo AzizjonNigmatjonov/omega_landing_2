@@ -747,5 +747,92 @@ body {
 /*Footer-Omega*/
 
 .omega {
-	background-color: green;
+	
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.omega .wrapper {
+	width: 70%;
+	margin: 0 auto;
+	padding: 80px 0px 50px 0px;
+}
+
+.omega-list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.omega-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.omega-text {
+	color: #19191b;
+	font-size: 22px;
+	letter-spacing: -0.75px;
+}
+
+.omega-subtext {
+	color: #696871;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	line-height: 20px;
+	width: 180px;
+	margin-top: 15px;
+}
+
+.image-omega {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100px;
+}
+
+.box-omega {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #696871;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.omega-social-link {
+	padding: 7px 5px 5px 5px;
+	text-decoration: none;
+}
+
+.omega-social-img {
+	transition: all 0.2s;
+}
+
+.omega-social-img:hover {
+	transform: scale(1.1);
+}
+
+.about-text {
+	color: #19191b;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+.about-link {
+	color: #19191b;
+	font-size: 14px;
+	margin: 10px 0px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.about-link:hover {
+	color: #f04037;
 }
