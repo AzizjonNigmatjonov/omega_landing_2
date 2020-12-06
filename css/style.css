@@ -841,6 +841,9 @@ body {
 	.container {
 		width: 960px;
 	}
+	.header .nav-text {
+		margin-left: 20px;
+	}
 }
 
 @media(max-width: 768px) {
@@ -860,3 +863,4 @@ body {
 		width: auto;
 	}
 }
+
