@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
 
 	.header {
+		background-size: cover;
 	}
 
 	.header .container {
