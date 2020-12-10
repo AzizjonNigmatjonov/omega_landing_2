@@ -12,21 +12,21 @@
 	}
 
 	.main-input {
-	width: 440px;
+		width: 440px;
 	}
 
 	.image-notebook {
-	position: absolute;
-	top: 110px;
-	left: 540px;
-	width: 150px;
+		position: absolute;
+		top: 110px;
+		left: 540px;
+		width: 150px;
 	}
 
 	.image-conversion {
-	position: absolute;
-	top: 330px;
-	right: 20px;
-	width: 90px;
+		position: absolute;
+		top: 330px;
+		right: 20px;
+		width: 90px;
 	}
 
 	/*section-miltiple*/
@@ -48,6 +48,17 @@
 	}
 
 	.content-users {
+		width: 85%;
+		padding: 20px 0px;
+	}
+
+	/*section-its*/
+
+	.its .container {
+		width: 960px;
+	}
+
+	.content-its {
 		width: 85%;
 	}
 }

@@ -333,13 +333,14 @@ body {
 .users .cotainer {
 	width: 1140px;
 	margin: 0 auto;
-	padding: 150px 0;
+
 }
 
 .content-users {
 	width: 70%;
 	margin: 0 auto;
 	position: relative;
+	padding: 150px 0;
 }
 
 .users-title {
