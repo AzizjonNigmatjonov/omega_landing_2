@@ -1,11 +1,11 @@
 @media (max-width: 768px) {
 	.header .container {
-	width: 720px;
+		width: 720px;
 	}
 
 	.header {
-	background-size: contain;
-	background-repeat: repeat-y;	
+		background-size: contain;
+		background-repeat: repeat-y;	
 	}
 
 	.main .container {
@@ -49,12 +49,18 @@
 		text-align: center;
 	}
 
+	/*section-users*/
+
 	.users .cotainer {
-	width: 720px;
+		width: 720px;
+	}
+
+	.users .cotainer {
+		width: 720px;
 	}
 
 	.text-users {
-	padding: 100px 0;
+		padding: 100px 0;
 	}
 
 	.users-title {
@@ -74,10 +80,10 @@
 	}
 
 	.image-users {
-	position: absolute;
-	top: 280px;
-	left: 260px;
-	width: 150px;
-}
+		position: absolute;
+		top: 280px;
+		left: 260px;
+		width: 150px;
+	}
 
 }
