@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+
+	.header {
+		background-color: #ffffff;
+		background-image: none;
+	}
+
+	.header .container {
+		width: 470px;
+	}
+
+	.image-notebook {
+		left: 30px;
+		top: 140px;
+		width: 80px;
+	}
+
+	.main-input {
+		border: 1px solid #000000;
+	}
+
+	.image-conversion {
+		top: 280px;
+		left: 50px;
+		width: 50px;
+	}
+
+	/*section-multiple*/
+
+	.multiple .container {
+		width: 460px;
+		padding: 50px 0px;
+	}
+
+	/*section-users*/
+
+	.users .container {
+		width: 460px;
+	}
+
+}
