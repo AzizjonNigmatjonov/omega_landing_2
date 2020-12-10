@@ -51,33 +51,58 @@
 
 	/*section-users*/
 
-	.users .cotainer {
-		width: 720px;
+	.users {
+		background-image: url("../img/users-main-img.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		object-fit: cover;
 	}
 
+	.users .container {
+		width: 720px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 60px 0px;
+	}
+
+	.content-users {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.text-users {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
 	.users-title {
-		font-size: 30px;
-		width: 200px;
-		background-color: red;
+		font-size: 35px;
+		width: 300px;
+		text-align: center;
+		margin: 0 auto;
 	}
 
-	.users-subtext {
+	.users-subtext  {
 		font-size: 16px;
-		padding-top: 10px;
-		width: 320px;
-		background-color: red;
+		line-height: 33px;
+		width: 400px;
+		text-align: center;
 	}
 
 	.users-link {
 		font-size: 16px;
-		margin-top: 15px;
 	}
 
-	.image-users {
-		position: absolute;
-		top: 280px;
-		left: 260px;
+	.image-users  {
+		top: 10px;
+		left: 10px;
 		width: 150px;
 	}
 
