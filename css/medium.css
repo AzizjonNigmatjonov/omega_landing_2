@@ -1,135 +1,58 @@
-@media (max-width: 768px) {
-	.header .container {
-		width: 720px;
-	}
-
+@media (max-width: 800px) {
 	.header {
-		background-size: cover;
-	
+		background-position: -430px center;
 	}
 
-	.main .container {
-		padding: 50px 30px;
+	.header .container {
+		width: 680px;
+	}
+}
+
+@media (max-width: 760px) {
+	.header {
+		background-position: -500px center;
+	}
+
+	.header .container {
+		width: 620px;
+	}
+
+	.main-title  {
+		color: #696871ff;
 	}
 
 	.image-notebook {
-		top: 50px;
-		left: 390px;
+		left: 280px;
 	}
 
 	.image-conversion {
-		right: 70px;
-		top: 240px;
+		right: 60px;
+	}
+}
+
+@media (max-width: 760px) {
+	.header {
+		background-position: -350px center;
 	}
 
-	/*section-miltiple*/
-
-	.multiple .container {
-		width: 720px;
+	.header .container {
+		width: 580px;
 	}
 
-	.content-multiple {
-		flex-direction: column;
-		justify-content: center;
+	.text-main {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
-	.build {
-		padding-right: 0px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding-top: 20px;
+	.main-title  {
+		color: #696871ff;
 	}
 
-	.build-title {
-		text-align: center;
+	.image-notebook {
+		left: 280px;
 	}
 
-	.build-subtext {
-		text-align: center;
-	}
-
-	/*section-users*/
-
-	.users {
-		background-image: url("../img/users-main-img.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		object-fit: cover;
-	}
-
-	.users .container {
-		width: 720px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 60px 0px;
-	}
-
-	.content-users {
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.text-users {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.users-title {
-		font-size: 35px;
-		width: 300px;
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	.users-subtext  {
-		font-size: 16px;
-		line-height: 33px;
-		width: 400px;
-		text-align: center;
-	}
-
-	.users-link {
-		font-size: 16px;
-	}
-
-	.image-users  {
-		top: 10px;
-		left: 10px;
-		width: 150px;
-	}
-
-	/*section-its*/
-
-	.its .container {
-		width: 720px;
-	}
-
-	.content-its {
-		width: 70%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 80px 0px 50px 0px;
-		margin: 0 auto;
-	}
-
-	.its-list {
-		flex-direction: column;
-	}
-
-	.content-its > .second-list {
-		justify-content: center;
-	}
-
-	.second-list > .first-item {
-		margin: 0px; 
+	.image-conversion {
+		right: 60px;
 	}
 }
